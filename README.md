@@ -1,4 +1,4 @@
-#JS-exercice
+# JS-exercice
 Exercice sur les array, les fonctions et les loop
 
 Forkez le repo !
