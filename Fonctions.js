@@ -21,11 +21,22 @@ document.write("<br /><br />");
 
 function caractere() 
 {
-	var char = "J'ai bon caractère";
+	var char = "J'ai bon caractère !";
 	return char;
 	
 }
 
 document.write(caractere());
+
+document.write("<br /><br />");
+
+function concate (e,f)
+{
+	var e = "Salut ";
+	var f = "les gars !";
+	return e + f;
+}
+
+document.write(concate());
 
 document.write("<br /><br />");
