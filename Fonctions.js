@@ -19,10 +19,9 @@ vrai(a,b);
 
 document.write("<br /><br />");
 
-function caractere() 
+function caractere(string="J'ai bon caractère !") 
 {
-	var char = "J'ai bon caractère !";
-	return char;
+	return string;
 	
 }
 
@@ -40,3 +39,24 @@ function concate (e,f)
 document.write(concate());
 
 document.write("<br /><br />");
+
+
+
+function nombres (nb1=1,nb2=2)
+{
+
+	if (nb1 == nb2) 
+	{
+		return 'Les deux nombres sont identiques';
+	}
+	else if (nb1 > nb2)
+	{
+		return 'Le premier nombre est plus grand';
+	} 
+	else 
+	{
+		return 'Le premier nombre est plus petit';
+	}
+}
+
+document.write(nombres(50,8));
