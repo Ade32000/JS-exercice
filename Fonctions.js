@@ -72,3 +72,28 @@ function itsMe (nom="",prenom="",age=0)
 }
 document.write(itsMe("Badji", "Adeline", 32));
 document.write("<br /><br />");
+
+function human (age=0,genre="Homme"||"Femme")
+{
+	if (age >= 18 && genre == "Homme") 
+	{
+		return 'Vous êtes un homme et vous êtes majeur';
+	} 
+	else if (age <= 18 && genre == "Homme")
+	{
+		return 'Vous êtes un homme et vous êtes mineur';
+	}
+	else if (age >= 18 && genre == "Femme")
+	{
+		return 'Vous êtes une femme et vous êtes majeure';
+	}
+	else
+	{
+		return 'Vous êtes une femme et vous êtes mineure';
+	}
+}
+document.write(human(25,"Homme")+'<br />');
+document.write(human(15,"Homme")+'<br />');
+document.write(human(45,"Femme")+'<br />');
+document.write(human(10,"Femme")+'<br />'+'<br />');
+
