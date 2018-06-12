@@ -16,7 +16,6 @@ function vrai(c,d)
 }
 
 vrai(a,b);
-
 document.write("<br /><br />");
 
 function caractere(string="J'ai bon caractère !") 
@@ -26,18 +25,14 @@ function caractere(string="J'ai bon caractère !")
 }
 
 document.write(caractere());
-
 document.write("<br /><br />");
 
-function concate (e,f)
+function concate (e="Salut ",f="les gars !")
 {
-	var e = "Salut ";
-	var f = "les gars !";
 	return e + f;
 }
 
 document.write(concate());
-
 document.write("<br /><br />");
 
 
@@ -59,4 +54,15 @@ function nombres (nb1=1,nb2=2)
 	}
 }
 
-document.write(nombres(50,8));
+document.write(nombres(50,8)+'<br/>');
+document.write(nombres(3,8)+'<br/>');
+document.write(nombres(50,50));
+document.write("<br /><br />");
+
+function onsemélange (int=2,text=" c'est mieux !")
+{
+	return 'A ' + int + text;
+}
+document.write(onsemélange());
+document.write("<br /><br />");
+
