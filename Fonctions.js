@@ -97,3 +97,8 @@ document.write(human(15,"Homme")+'<br />');
 document.write(human(45,"Femme")+'<br />');
 document.write(human(10,"Femme")+'<br />'+'<br />');
 
+function somme(i,j,k)
+{
+	return i+j+k;
+}
+document.write(somme(2,3,4));
