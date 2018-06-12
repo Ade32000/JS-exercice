@@ -66,3 +66,9 @@ function onsemélange (int=2,text=" c'est mieux !")
 document.write(onsemélange());
 document.write("<br /><br />");
 
+function itsMe (nom="",prenom="",age=0)
+{
+	return 'Bonjour ' + nom + " " + prenom + ', tu as ' + age + " ans";
+}
+document.write(itsMe("Badji", "Adeline", 32));
+document.write("<br /><br />");
