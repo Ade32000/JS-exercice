@@ -41,3 +41,9 @@ var y = 1;
 
 document.write("<br />"+"<br />");
 
+for (i=1; i <16; i++)
+{
+	document.write(i+" "+'on y arrive presque'+'<br />');
+}
+
+document.write("<br />"+"<br />");
