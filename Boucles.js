@@ -57,5 +57,12 @@ document.write("<br />"+"<br />");
 
 for (k=1; k < 101 ; k+= 15) 
 { 
-	document.write(k+" "+"On tient le bon bout."+" "+'<br />');
+	document.write(k+" "+"On tient le bon bout."+'<br />');
+}
+
+document.write("<br />"+"<br />");
+
+for (l=200; l >= 0 ; l-= 12) 
+{ 
+	document.write(l+" "+"Enfin !!!!"+"<br />");
 }
