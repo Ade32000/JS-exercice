@@ -43,7 +43,12 @@ document.write("<br />"+"<br />");
 
 for (i=1; i <16; i++)
 {
-	document.write(i+" "+'on y arrive presque'+'<br />');
+	document.write(i+"  "+'On y arrive presque.'+'<br />');
 }
 
 document.write("<br />"+"<br />");
+
+for (j=20; j >= 0 ; j--) 
+{ 
+	document.write(j+"  "+"C'est presque bon."+'<br />');
+}
