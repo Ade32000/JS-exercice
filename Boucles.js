@@ -30,3 +30,14 @@ var other = 43;
 	}
 
 document.write("<br />"+"<br />");
+
+var y = 1;
+
+	while (y < 11)
+	{
+		document.write(y+'<br />');
+		y += y/2;
+	}
+
+document.write("<br />"+"<br />");
+
