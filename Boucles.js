@@ -52,3 +52,10 @@ for (j=20; j >= 0 ; j--)
 { 
 	document.write(j+"  "+"C'est presque bon."+'<br />');
 }
+
+document.write("<br />"+"<br />");
+
+for (k=1; k < 101 ; k+= 15) 
+{ 
+	document.write(k+" "+"On tient le bon bout."+" "+'<br />');
+}
