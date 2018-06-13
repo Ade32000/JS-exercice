@@ -18,3 +18,15 @@ var nb2 = 50;
 	}
 
 document.write("<br />"+"<br />");
+
+var Cent = 100;
+var other = 43;
+
+	while (Cent >= 10)
+	{
+		var res1 = Cent * other;
+		document.write(res1+'<br />');
+		Cent--;
+	}
+
+document.write("<br />"+"<br />");
